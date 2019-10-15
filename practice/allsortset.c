@@ -987,10 +987,10 @@ int main(int argc, char ** argv)
 	else
 	{
 		if((range_end - range_start) < valuenum)
-			ditto = 1;
+			ditto = 1; //自动设置为可重复
 		else
 		{
-			ditto = 0;
+			ditto = 0; //元素不重复
 		}
 	}
 	
